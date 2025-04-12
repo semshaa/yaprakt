@@ -49,3 +49,5 @@ func DayActionInfo(data string, weight, height float64) string {
         steps, distanceKm, calories,
     )
 }
+result := daysteps.DayActionInfo("1000, 1h30m", 70, 1.75)
+fmt.Println(result)
